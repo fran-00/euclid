@@ -1,3 +1,5 @@
+import turtle
+
 def disuguaglianza_triangolare(a: int, b: int, c: int):
     
     if (a + b > c) and (a + c > b) and (b + c > a):
