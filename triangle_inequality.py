@@ -9,4 +9,5 @@ def disuguaglianza_triangolare(a, b, c):
 
 a, b, c = map(int, input("Inserisci tre numeri separati da uno spazio: ").split())
 
-print(disuguaglianza_triangolare(a, b, c))
+result = disuguaglianza_triangolare(a, b, c)
+print(result)
